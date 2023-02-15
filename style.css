@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+}
+.header-top {
+  margin: 0 auto;
+  width: 85%;
+  display: flex;
+  align-items: center;
+}
+.header-bottom {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+}
+.side-component {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 10px 32px;
+}
+.side-container {
+  width: 25%;
+  background-color: #cecece;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  gap: 86px;
+}
+.character {
+  width: 50px;
+}
+.content-right {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  flex: 1;
+}
+.icon {
+  height: 20px;
+}
+main {
+  background-color: rgba(169, 169, 169, 0.244);
+}
+.main-card-container {
+  width: 85%;
+  margin: 24px auto;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: auto;
+  flex: 0 1 0;
+  padding: 30px;
+  margin: 10px;
+  border-left: 5px solid rgba(231, 143, 71, 0.753);
+  border-radius: 10px;
+  background-color: #3c81d666;
+}
+.character {
+  border-radius: 500px;
+}
+.admin-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.9rem;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px auto;
+  background-color: #3c81d666;
+  padding: 5px;
+  border-radius: 10px 5px;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+.search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.search input {
+  width: 50%;
+  font: 300;
+  height: 30px;
+  border-radius: 50px;
+  padding: 5px;
+}
+.search .icon {
+  height: 30px;
+}
+.card img {
+  margin: 5px 0;
+  border-radius: 10px;
+}
+.projects {
+  display: grid;
+  grid-template: 1fr 1fr /1fr 1fr;
+}
+.projects {
+  grid-area: 1 / 1 / -1 / 2;
+}
+.announcement {
+  grid-area: 1 /2 /4/3;
+}
+.trending {
+  grid-area: 4 /2 /6/3;
+}
